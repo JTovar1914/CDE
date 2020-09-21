@@ -1,0 +1,384 @@
+
+* {
+  box-sizing: border-box;
+}
+
+section {
+  display: block;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  padding-top: 3.5rem;
+}
+
+li {
+  list-style-type: none;
+}
+
+.intro_header {
+  width: 100vw;
+  height: 10vh;
+  position: fixed;
+  background: rgb(68, 106, 155);
+  display: flex;
+  padding: 0 1rem;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 10;
+  top: 0;
+  left: 0;
+}
+
+@media (orientation: landscape) and (max-width: 60rem) {
+  .intro_header {
+    height: 18vh;
+  }
+}
+
+.backdrop {
+  position: fixed;
+  display: none;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 100%;
+  height: 100%;
+  background: rgba(7, 51, 100, 0.5);
+}
+
+.home2 a {
+  text-decoration: none;
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.toggle-button {
+  width: 3.2rem;
+  background: transparent;
+  border: none;
+  padding-top: 0;
+  padding-bottom: 0;
+  vertical-align: middle;
+  margin-right: .8rem;
+}
+
+.toggle-button:focus {
+  outline: none;
+}
+
+.toggle-button__bar {
+  width: 100%;
+  height: .4rem;
+  background: white;
+  display: block;
+  margin: 0.3rem 0;
+}
+
+@media (min-width: 40rem) {
+  .toggle-button {
+    display: none;
+  }
+}
+
+
+@media (orientation: landscape) {
+  .toggle-button__bar {
+    margin: .3rem 0;
+  }
+}
+
+
+.lang {
+
+}
+
+.lang2 {
+list-style: none;
+display: inline-block;
+}
+
+.lang2 a {
+text-decoration: none;
+color: white;
+font-size: 1.5rem;
+margin: 0 1.8rem;
+}
+
+.lang2 a:hover {
+color: rgba(12, 23, 114, 0.61);
+}
+
+
+@media (max-width: 40rem) {
+.lang {
+  display: none;
+}
+}
+
+.mobile-nav {
+  display: none;
+  position: fixed;
+  z-index: 101;
+  top: 0;
+  left: 0;
+  background: white;
+  width: 100%;
+  height: 30%;
+  margin: 0;
+}
+
+.mobile-nav__items {
+  list-style: none;
+  padding: 0;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.mobile-nav__item {
+  margin-top: 2.5rem;
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 40rem) and (orientation:landscape) {
+  .mobile-nav__item {
+    margin-top: .5rem;
+  }
+}
+
+.mobile-nav__item a {
+  font-size: 1rem;
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(68, 106, 155);
+}
+
+.intro {
+  background: url("phone.jpeg");
+  background-position: center;
+  background-size: cover;
+  width: 100vw;
+  height: 33vh;
+  position: relative;
+}
+
+
+#intro_text {
+  color: white;
+  position: absolute;
+  bottom: 5%;
+  left: 3%;
+  font-size: 1rem;
+}
+
+
+.cameras {
+  text-align: center;
+  font-size: 1.9rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.cameras #hd1 {
+  color: yellow;
+  background-color: black;
+  padding: .5rem;
+  width: fit-content;
+  margin-left: 5%;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+
+.item-1 {
+  width: 17rem;
+  height: 18rem;
+  border: 3px solid black;
+  margin: 10px;
+  padding: 5px;
+  display: grid;
+  background: white;
+  grid-template-columns: repeat(2, 50%);
+  grid-template-rows: repeat(5, 20%);
+  grid-template-areas: "img img" 
+                      "img img" 
+                      "img img" 
+                      "img img" 
+                      "learn price";
+}
+
+.cam {
+  background-image: url(cam1.png);
+  background-size: cover;
+  background-position: center;
+  grid-area: img;
+}
+
+.learn {
+  background: white;
+  grid-area: learn;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+
+}
+
+.learn a {
+  color: black;
+  text-decoration: none;
+  font-size: 1rem;
+  
+}
+
+.price {
+  background: white;
+  grid-area: price;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.price p {
+  font-size: 2rem;
+}
+
+
+#contact_back {
+  background-color: rgb(18, 52, 124);
+  width: 100vw;
+  min-height:100vh;
+  padding-bottom: 10px;
+}
+
+#title {
+  background-color: rgb(15, 40, 94);
+  width: 100vw;
+  height: 18vh;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+}
+
+#content {
+  border: 5px solid black;
+  width: 95%;
+  margin: auto;
+  padding: 15px;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+@media (min-width: 40rem) and (max-width: 76rem) {
+  #content {
+    width: 50%;
+  }
+
+  form textarea {
+    height: 10rem;
+  }
+}
+
+@media (min-width: 76rem) {
+  #content {
+    width: 30%;
+  }
+
+  form textarea {
+    height: 10rem;
+  }
+}
+
+#content1 {
+  color: white;
+}
+
+#phone {
+  display: flex;
+  align-items: center;
+}
+
+#phone a {
+  color: white;
+  text-decoration: none;
+  margin-left: .5rem;
+}
+
+#email {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+
+}
+
+
+#email a {
+  color: white;
+  text-decoration: none;
+  margin-left: .5rem;
+
+
+}
+
+#fill_form p {
+  color: white;
+}
+
+form input, textarea {
+  display: block;
+  margin: 1.2rem 0;
+  width: 100%;
+  border: 3px solid black;
+}
+
+form textarea {
+  height: 5rem;
+}
+
+form input {
+  height: 2rem;
+}
+
+
+form button {
+  width: 30%;
+  margin-top: .5rem;
+  background-color: rgb(11, 30, 71);
+  color: white;
+  font-size: 1rem;
+  padding: 3px;
+  border-radius: 5px;
+  border-style: none;
+  border: 1px solid black;
+}
+
+
+
+#form label {
+  color: white;
+}
+
