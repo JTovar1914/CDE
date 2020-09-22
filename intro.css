@@ -20,23 +20,24 @@ li {
 
 
 .intro_header {
-    width: 100vw;
-    height: 7vh;
-    background: rgb(68, 106, 155);
-    padding: 1rem 1rem;
-    position: fixed;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    z-index: 10;
-    top: 0;
-    left: 0;
+  width: 100vw;
+  height: 10vh;
+  position: fixed;
+  background: rgb(68, 106, 155);
+  display: flex;
+  padding: 0 1rem;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 10;
+  top: 0;
+  left: 0;
 }
+
 
 
 .logo {
     color: white;
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: bold;
 }
 
@@ -69,7 +70,7 @@ li {
 
 
   .toggle-button {
-    width: 4rem;
+    width: 3.2rem;
     background: transparent;
     border: none;
     padding-top: 0;
@@ -85,10 +86,10 @@ li {
 
   .toggle-button__bar {
     width: 100%;
-    height: .5rem;
+    height: .4rem;
     background: white;
     display: block;
-    margin: 0.5rem 0;
+    margin: 0.3rem 0;
   }
 
   @media (min-width: 40rem) {
