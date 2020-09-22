@@ -306,6 +306,7 @@ color: rgba(12, 23, 114, 0.61);
 #phone {
   display: flex;
   align-items: center;
+  color: white;
 }
 
 #phone p {
