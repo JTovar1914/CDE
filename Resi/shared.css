@@ -271,11 +271,11 @@ color: rgba(12, 23, 114, 0.61);
 }
 
 #content {
-  border: 5px solid rgb(54, 124, 190);
+  border: 5px solid rgb(54, 116, 173);
   width: 95%;
   background-color: rgb(54, 116, 173);
   margin: auto;
-  padding: 15px;
+  padding: 2rem;
   flex-wrap: wrap;
   margin-top: 10px;
 }
@@ -302,6 +302,11 @@ color: rgba(12, 23, 114, 0.61);
 
 #content1 {
   color: white;
+  
+}
+
+#content p {
+  font-size: 1.5rem;
 }
 
 #phone {
