@@ -273,7 +273,7 @@ color: rgba(12, 23, 114, 0.61);
 #content {
   border: 5px solid rgb(54, 124, 190);
   width: 95%;
-  background-color: rgb(68, 106, 155);
+  background-color: rgb(78, 103, 133);
   margin: auto;
   padding: 15px;
   flex-wrap: wrap;
@@ -310,7 +310,7 @@ color: rgba(12, 23, 114, 0.61);
 }
 
 #phone p {
-  color: white !important;
+  color: blue;
   text-decoration: none;
   margin-left: .5rem;
   color: inherit;
