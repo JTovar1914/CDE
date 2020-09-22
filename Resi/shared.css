@@ -3,10 +3,6 @@
   box-sizing: border-box;
 }
 
-section {
-  display: block;
-}
-
 html {
   height: 100%;
 }
