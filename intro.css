@@ -127,9 +127,9 @@ li {
   }
   
   .mobile-nav__item {
-    margin-top: 2.5rem;
     display: flex;
-    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 
   @media (max-width: 40rem) and (orientation:landscape) {
@@ -139,10 +139,12 @@ li {
   }
   
   .mobile-nav__item a {
-    font-size: 1rem;
+    font-size: 1.5rem;
     text-decoration: none;
     font-weight: bold;
     color: rgb(68, 106, 155);
+    margin-bottom: 2rem;
+    margin-top: 1rem;
   }
 
   .backdrop {
