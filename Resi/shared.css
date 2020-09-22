@@ -156,7 +156,7 @@ color: rgba(12, 23, 114, 0.61);
 }
 
 .intro {
-  background: url("phone.jpeg");
+  background: url("phone.jpg");
   background-position: center;
   background-size: cover;
   width: 100vw;
@@ -217,7 +217,7 @@ color: rgba(12, 23, 114, 0.61);
                       "img img" 
                       "img img" 
                       "img img" 
-                      "learn price";
+                      "learn learn";
 }
 
 .cam {
@@ -244,7 +244,21 @@ color: rgba(12, 23, 114, 0.61);
   
 }
 
-.price {
+#footer {
+  background-color: rgb(68, 106, 155) ;
+  padding: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#footer1 {
+  color: white;
+  font-size: 2.5rem;
+}
+
+/*.price {
   background: white;
   grid-area: price;
   display: flex;
@@ -255,7 +269,7 @@ color: rgba(12, 23, 114, 0.61);
 
 .price p {
   font-size: 2rem;
-}
+}*/
 
 
 #contact_back {
@@ -277,7 +291,7 @@ color: rgba(12, 23, 114, 0.61);
 }
 
 #content {
-  border: 5px solid black;
+  border: 5px solid rgb(54, 124, 190);
   width: 95%;
   margin: auto;
   padding: 15px;
