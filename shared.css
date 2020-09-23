@@ -147,7 +147,7 @@ color: rgba(12, 23, 114, 0.61);
 }
 
 .intro {
-  background: url("phone.jpg");
+  background: url("/Resi/phone.jpg");
   background-position: center;
   background-size: cover;
   width: 100vw;
