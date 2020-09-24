@@ -155,6 +155,15 @@ color: rgba(12, 23, 114, 0.61);
   position: relative;
 }
 
+.intro_busi {
+    background: url("busipic.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 33vh;
+    position: relative;
+}
+
 
 #intro_text {
   color: white;
