@@ -169,9 +169,10 @@ color: rgba(12, 23, 114, 0.61);
   color: white;
   position: absolute;
   bottom: 5%;
-  left: 3%;
+  left: 7%;
   font-size: 1.5rem;
   width: 50%;
+ 
 }
 
 
@@ -246,6 +247,7 @@ color: rgba(12, 23, 114, 0.61);
 #footer1 {
   color: white;
   font-size: 2.5rem;
+  padding: .8rem;
 }
 
 /*.price {
