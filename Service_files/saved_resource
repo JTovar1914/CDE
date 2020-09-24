@@ -1,0 +1,209 @@
+/* Enter Your Custom CSS Here */
+.blog-single #primary .featured-image .featured-image-content:after {
+    content: "";
+    background-image: -webkit-gradient(linear, left bottom, left top, from(transparent), to(transparent)); 
+    background-image: -webkit-linear-gradient(bottom, transparent, transparent);
+    background-image: -o-linear-gradient(bottom, transparent, transparent);
+    background-image: linear-gradient(to top, transparent, transparent);
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.addeventatc {
+ 		visibility:hidden;
+		z-index:-100;
+}
+
+.contentLink {
+  text-decoration: underline;
+  font-weight: bolder;
+}
+
+/* added 031519 LS - for ECR table - can probably be re-used for other table-to-div conversion */
+/* DivTable.com */
+.divECRTable{
+	display: table;
+	width: 100%;
+}
+.divECRTableRow {
+	display: table-row;
+}
+.divECRTableHeading {
+	background-color: #EEE;
+/*	display: table-header-group;*/
+}
+.divECRTableCell, .divECRTableHead {
+  border-top: #CCCCCC solid 1px;
+  display: table-cell;
+	padding: 3px 10px;
+	vertical-align: top;
+}
+.divECRTableHeading {
+	background-color: #EEE;
+	display: table-header-group;
+	font-weight: bold;
+}
+.divECRTableFoot {
+	background-color: #EEE;
+	display: table-footer-group;
+	font-weight: bold;
+}
+.divECRTableBody {
+	display: table-row-group;
+}
+
+/* end ECR table add */
+
+/* added 041819 LS - for RRBE agenda joop joop - can probably be re-used for other accordions */
+/* Shared for all accordion types */
+.LS-accordion {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:12px;
+	margin:0 auto;
+    /*border-top:1px solid #000000; */
+    /*border-left:1px solid #000000;
+    border-radius:10px;*/
+    max-width:600px;
+    padding:10px;
+    background:#fff;
+}
+.LS-accordion ul {
+    list-style:none;
+    margin:0;
+    padding:0;    
+}
+.LS-accordion li {
+    margin:0;
+    padding:0;
+}
+.LS-accordion [type=checkbox], .LS-accordion [type=checkbox] {
+    display:none;
+}
+.LS-accordion label {
+    display:block;
+    font-size:14px;
+    line-height:14px;
+    background:#CECECE;
+    border:1px solid #333333;
+    color:#233131;
+    text-shadow:1px 1px 1px rgba(255,255,255,0.3);
+    font-weight:700;
+    cursor:pointer;
+    /*text-transform:uppercase;
+    -webkit-transition: all .2s ease-out;
+    -moz-transition: all .2s ease-out;*/
+}
+
+.LS-accordion ul li label:hover, .LS-accordion [type=checkbox]:checked ~ label, .LS-accordion [type=checkbox]:checked ~ label {
+    background:#3d5355;
+    color:#FFF;
+    text-shadow:1px 1px 1px rgba(0,0,0,0.5)
+}
+.LS-accordion .content {
+    padding:0 10px;
+    overflow:hidden;
+    border:1px solid #FFFFFF; /* Make the border match the background so it fades in nicely 
+    -webkit-transition: all .5s ease-out;
+    -moz-transition: all .5s ease-out;*/
+}
+.LS-accordion p {
+    color:#333333;
+    margin:0 0 10px;
+}
+.LS-accordion h3 {
+    color:#000000;
+    padding:0;
+    margin:10px 0;
+}
+
+
+/* Vertical */
+.vertical ul li {
+    overflow:hidden;
+    margin:0 0 1px;
+}
+.vertical ul li label {
+    padding:10px;
+}
+.vertical [type=checkbox]:checked ~ label, .vertical [type=checkbox]:checked ~ label {
+    border-bottom:0;
+}
+.vertical ul li label:hover {
+    border:1px solid #000000; /* We don't want the border to disappear on hover */
+}
+.vertical ul li .content {
+    height:0px;
+    border-top:0;
+}
+.vertical [type=checkbox]:checked ~ label ~ .content, .vertical [type=checkbox]:checked ~ label ~ .content {
+    height:auto;
+    border:1px solid #000000;
+}
+/* end accordion add */
+
+/* GENERIC DIV TABLE STYLING ADDED 03182020 LS */
+.divTable{
+	display: table;
+	width: 100%;
+}
+.divTableRow {
+	display: table-row;
+}
+.divTableHeading {
+	background-color: #EEE;
+	display: table-header-group;
+}
+.divTableCell, .divTableHead {
+/*	border: 1px solid #999999; */
+	display: table-cell;
+	padding: 3px 10px;
+}
+.divTableHeading {
+	background-color: #EEE;
+	display: table-header-group;
+	font-weight: bold;
+}
+.divTableFoot {
+	background-color: #EEE;
+	display: table-footer-group;
+	font-weight: bold;
+}
+.divTableBody {
+	display: table-row-group;
+}
+
+/* added 04292020 for 2-column display */
+ .articleColumns {
+    -webkit-columns: 2 200px;
+       -moz-columns: 2 200px;
+            columns: 2 200px;
+    -webkit-column-gap: 4em;
+       -moz-column-gap: 4em;
+            column-gap: 4em;
+    -webkit-column-rule: 1px solid #333;
+       -moz-column-rule: 1px solid #333;
+            column-rule: 1px solid #333;
+}
+
+/* added 05212020 blue gradient */
+.blueGradient {
+background-image: -webkit-gradient(linear, left bottom, left top, from(#E7E9E7), to(rgba(0,0,0, 1)));
+background-image: linear-gradient(#E7E9E7, #FFFFFF);
+}
+
+.charitable-donation-form input {
+	border: 1px solid lightgray!important;
+}
+
+#charitable_field_cc_expiration fieldset > :not(.charitable-fieldset-field-header) {
+	float: none;
+}
+
+.campaign-donation-receipt #primary {
+	padding-left: 30px;
+	padding-right: 30px;
+}

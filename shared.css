@@ -155,6 +155,24 @@ color: rgba(12, 23, 114, 0.61);
   position: relative;
 }
 
+.intro_service {
+  background: url("/Service/Service.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 100vw;
+  height: 33vh;
+  position: relative;
+}
+
+.intro_about {
+  background: url("/About/about.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 100vw;
+  height: 33vh;
+  position: relative;
+}
+
 .intro_busi {
     background-image: url("/CDE Business/busipic.jpg");
     background-position: center;
@@ -250,19 +268,6 @@ color: rgba(12, 23, 114, 0.61);
   padding: .8rem;
 }
 
-/*.price {
-  background: white;
-  grid-area: price;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-}
-
-.price p {
-  font-size: 2rem;
-}*/
-
 
 #contact_back {
   background-color: rgb(18, 52, 124);
@@ -272,18 +277,21 @@ color: rgba(12, 23, 114, 0.61);
 }
 
 #title {
-  background-color: rgb(15, 40, 94);
+  background: url(/Contact/contact.jpg);
+  background-position: center;
+  background-size: cover;
   width: 100vw;
   height: 18vh;
-  color: white;
+  color: rgb(214, 229, 241);
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 3rem;
+  font-size: 3.5rem;
+  font-weight: bold;
 }
 
 #content {
-  border: 5px solid rgb(54, 116, 173);
+  border: 5px solid black;
   width: 95%;
   background-color: rgb(54, 116, 173);
   margin: auto;
