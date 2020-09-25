@@ -334,6 +334,11 @@ color: rgba(12, 23, 114, 0.61);
   font-size: 1.5rem;
 }
 
+#content2 p {
+  margin-top: 20px;
+  color: white;
+}
+
 #phone {
   display: flex;
   align-items: center;
