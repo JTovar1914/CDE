@@ -407,5 +407,8 @@ form button {
   justify-content: space-around;
   padding: 50px;
   font-size: 1.6rem;
+}
 
+.box p {
+  margin: 20px;
 }
