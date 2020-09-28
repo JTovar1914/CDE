@@ -401,3 +401,9 @@ form button {
   font-size: 1.5rem;
 }
 
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 50px;
+}
